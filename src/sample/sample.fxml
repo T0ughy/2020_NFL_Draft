@@ -5,32 +5,31 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgb(1, 51, 105);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="194.0" layoutY="31.0" text="Welcome">
+      <Label layoutX="194.0" layoutY="31.0" text="Welcome" textFill="#f7ea2c">
          <font>
             <Font name="System Bold" size="48.0" />
          </font>
       </Label>
-      <Label layoutX="177.0" layoutY="101.0" text="to the NFL Draft search app">
+      <Label layoutX="177.0" layoutY="101.0" text="to the NFL Draft search app" textFill="#f7ea2c">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Label layoutX="217.0" layoutY="185.0" text="You can search by:">
+      <Label layoutX="217.0" layoutY="185.0" text="You can search by:" textFill="#f7ea2c">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Button layoutX="89.0" layoutY="238.0" mnemonicParsing="false" text="Players">
+      <Button layoutX="89.0" layoutY="238.0" mnemonicParsing="false" style="-fx-background-color: rgb(213, 10, 10); -fx-background-radius: 8;" text="Players" textFill="#f7ea2c">
          <font>
-            <Font size="40.0" />
+            <Font name="System Bold" size="40.0" />
          </font>
       </Button>
-      <Button layoutX="337.0" layoutY="238.0" mnemonicParsing="false" text="Teams">
+      <Button layoutX="337.0" layoutY="238.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="178.0" style="-fx-background-color: rgb(213, 10, 10); -fx-background-radius: 8;" text="Teams" textFill="#f7ea2c">
          <font>
-            <Font size="40.0" />
+            <Font name="System Bold" size="40.0" />
          </font>
       </Button>
    </children>
